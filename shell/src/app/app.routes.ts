@@ -7,7 +7,7 @@ import { Route } from '@angular/router';
 registerRemotes([
   {
     name: 'remote1',
-    entry: 'http://localhost:4201/remoteEntry.mjs?v=1234.js',
+    entry: 'http://localhost:4201/remoteEntry.mjs',
     type: 'module',
   },
 ]);
